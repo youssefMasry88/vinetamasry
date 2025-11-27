@@ -1,0 +1,51 @@
+/* @media (min-width: 768px) {
+    .containerb{
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+    
+} */
+@media(max-width: 500px){
+    .top-bar-middle{
+        display: none;
+    }
+        .top-bar-right{
+        display: none;
+    }
+    
+}
+/* @media (max-width: 500px){
+    .footer-middle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    
+} */
+@media (max-width: 1080px){
+    .top-bar-middle{
+        display: none;
+    }
+  
+    
+}
+@media (max-width: 972px) {
+    .nav-icon{
+        display: none;
+    }
+    .Buy{
+        display: none;
+    }
+    #Bestselling{
+        width: 60%;
+    }
+}

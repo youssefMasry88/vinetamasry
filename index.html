@@ -16,13 +16,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="font-['Roboto']">
     <!-- top-bar -->
-    <div class="containers top-bar bg-[#8f4a58] h-9.5 w-full">
-        <div class="containers  flex justify-between items-center ">
-            <div class="top-bar1">
+    <div class="containers mx-auto top-bar bg-[#8f4a58] h-9.5 w-full ">
+        <div class=" justify-between items-center  ">
+            <div class="top-bar1 ">
                 <div class="top-bar-left">
                     <ul class="icon  flex gap-2 ml-11 pt-1 ">
                         <li class="facebook  w-7 h-7 rounded-full  "> <a href="">
@@ -37,11 +38,10 @@
                         <li class="facebook  w-7 h-7 rounded-full  "> <a href="">
                                 <img src="assste/icone/icons8-snapchat-50.png" alt="" class=" ">
                             </a></li>
-
                     </ul>
                 </div>
             </div>
-            <div class="top-bar-middle flex items-center justify-center gap-5 text-white">
+            <div class="top-bar-middle flex items-center justify-center gap-5 text-white ">
                 <div>
                     <p>Limited-Time Offers</p>
                 </div>
@@ -71,10 +71,10 @@
     </div>
     <!-- top-bar -->
     <!-- header -->
-    <header>
-        <div class="header-top bg-white border-[#e5e5e5] border-1  pb-5 pt-5 ">
-            <div class="containers flex items-center justify-between ">
-                <div class="col-xl-3 col-md-4 col-3 ml-11 ">
+    <header >
+        <div class="header-top bg-white border-[#e5e5e5] border-1  pb-5 pt-5  ">
+            <div class="containers flex items-center justify-between  ">
+                <div class="col-xl-3 col-md-4 col-3 ml-11  ">
                     <a href="home-furniture.html" class="logo-header">
                         <img src="assste/icone/logo.svg" alt="logo" class="logo">
                     </a>
@@ -127,7 +127,7 @@
         <div class="containers ">
             <ul class="flex gap-7 ">
                 <li class="flex gap-1 items-center ">
-                    <a href="Home.html">Home</a>
+                    <a href="index.html">Home</a>
                     <img src="assste/icone/icons8-dropdown-64.png" alt="" class="w-4 h-4">
                 </li>
                 <li class="flex gap-1 items-center ">
@@ -155,18 +155,19 @@
     <!-- navbar -->
 
     <!-- banner -->
-    <section class="flex flex-col md:flex-row h-[90vh]">
+<section class="flex flex-col md:flex-row h-auto md:h-[90vh]">
         <!-- Left: Text Content -->
         <div class="bg-[#ba9272] flex-1 flex flex-col justify-center items-center text-white px-8 py-12 text-center">
-            <h1 class="text-7xl font-bold mb-4 font-serif">Every Room <br> Elvevated</h1>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-serif">Every Room Elevated</h1>
             <p class="text-lg mb-8">Bring elegance and comfort to every room.</p>
-            <a href="#"><button
-                    class=" cursor-pointer bg-white text-[#BF9169] px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition">
+            <a href="#">
+                <button class="bg-white text-black px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition">
                     Shop Collection
-                </button></a>
+                </button>
+            </a>
 
             <!-- Slider indicators -->
-            <div class="mt-20 flex gap-2 items-center">
+            <div class="mt-12 flex gap-2 items-center">
                 <span class="w-3 h-3 bg-white rounded-full"></span>
                 <span class="w-3 h-3 bg-white/50 rounded-full"></span>
                 <span class="w-3 h-3 bg-white/50 rounded-full"></span>
@@ -175,11 +176,7 @@
 
         <!-- Right: Image Section -->
         <div class="flex-1 relative">
-            <img src="assste/image/slider-furniture-3.jpg" alt="Luxury Living Room"
-                class="w-full h-full object-cover" />
-            <button
-                class="absolute top-1/2 right-4 bg-black text-white text-xs px-3 py-1 rounded transform -translate-y-1/2 transition ease-in-out duration-300">
-            </button>
+            <img src="assste/image/slider-furniture-3.jpg" alt="Luxury Living Room" class="w-full h-full object-cover">
         </div>
     </section>
     <!-- banner -->
@@ -188,7 +185,7 @@
     <section class="services p-[4em]">
 
         <div class="Services-content">
-            <ul class="Services-title  flex gap-7 flex-row justify-center ">
+            <ul class="Services-title flex gap-7 flex-col xl:flex-row md:flex-row  justify-center ">
                 <li class="services-list w-[450px] h-[200px] text-center border-1 border-[#e5e5e5] rounded-[20px]">
                     <img src="assste/icone/icons8-box-64.png" alt="" class="w-15 h-15 ml-[12em]
                     mt-[1em]">
@@ -221,237 +218,195 @@
     <!-- services -->
 
     <!-- Top Picks -->
-    <section class="TopPicks">
-        <div class="text-center">
-            <h1 class="font-bold text-4xl">Top Picks You’ll Love</h1>
-            <p class="font-bold">Explore our most popular pieces that customers can't get enough of</p>
-        </div>
-
-        <div class="parent flex flex-row justify-center p-[4em] gap-5">
-            <div class="div1 relative ">
-                <p class=" absolute my-4 ml-3 w-15 h-7 font-bold
-                            p-1.5 text-xs bg-[#ff6f61] rounded-full  text-white ">20% Off</p>
-                <a href=""><img src="assste/image/1.jpg" alt=""
-                        class="w-[350px] h-[450px] object-cover rounded-[20px] hover:animate-pulse "></a>
-
-                <div class="absolute right-4 top-4">
-                    <ul class=" flex gap-2 flex-col z-10 ">
-                        <a href="">
-                            <li class="w-6 h-6 ">
-                                <img src="assste/icone/icons8-shopping-bag-32.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class=" w-6 h-6 rounded-full ">
-                                <img class="" src="assste/icone/icons8-heart-50.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class="w-6 h-6 ">
-                                <img src="assste/icone/icons8-eye-60.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class="w-6 h-6 "><img
-                                    src="assste/icone/arrow_split_50dp_000000_FILL0_wght600_GRAD0_opsz48.png" alt="">
-                            </li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="p-[1em]">
-
-                    <a href="#" class="font-bold  hover:text-[#ff6f61]">Nook Nightstand</a>
-                    <p class="flex pt-2 gap-2">
-                        <span class="text-[#ff6f61] font-bold  text-l">$150.00</span>
-                        <span class="text-black opacity-40 font-bold text-l line-through">$170.00</span>
-                    </p>
-                    <ul class="flex gap-2 pt-[1em]">
-                        <a href="" class="hover:border-1 rounded-full">
-                            <li class="w-6 h-6 bg-[#b58e68] rounded-full"></li>
-                        </a>
-                        <a href="" class="hover:border-1 rounded-full">
-                            <li class="w-6 h-6 bg-black rounded-full"></li>
-                        </a>
-                        <a href="" class="hover:border-1 rounded-full">
-                            <li class="w-6 h-6 bg-[#784e39] rounded-full"></li>
-                        </a>
-                    </ul>
-                </div>
-            </div>
-            <div class="div2 relative ">
-                <p class="  absolute my-4 ml-3 w-15 h-7 font-bold
-                p-1.5 text-xs bg-[#a474ff] rounded-full  text-white">Trending</p>
-                <a href=""><img src="assste/image/2.jpg" alt=""
-                        class="w-[350px] h-[450px] object-cover rounded-[20px] hover:animate-pulse  "></a>
-                <div class="absolute right-4 top-4">
-                    <ul class=" flex gap-2 flex-col z-10 ">
-                        <a href="">
-                            <li class="w-6 h-6 ">
-                                <img src="assste/icone/icons8-shopping-bag-32.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class=" w-6 h-6 rounded-full ">
-                                <img class="" src="assste/icone/icons8-heart-50.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class="w-6 h-6 ">
-                                <img src="assste/icone/icons8-eye-60.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class="w-6 h-6 "><img
-                                    src="assste/icone/arrow_split_50dp_000000_FILL0_wght600_GRAD0_opsz48.png" alt="">
-                            </li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="p-[1em]">
-                    <a href="#" class="font-bold  hover:text-[#ff6f61]">Talco Coffee Table</a>
-                    <p class="flex pt-2">
-                        <span class="text-[#ff6f61] font-bold  text-l">$350.00</span>
-                    </p>
-                    <ul class="flex gap-2 pt-[1em]">
-                        <a href="" class="hover:border-1 rounded-full">
-                            <li class="w-6 h-6 bg-[#4597a4] rounded-full"></li>
-                        </a>
-                        <a href="" class="hover:border-1 rounded-full">
-                            <li class="w-6 h-6 bg-[#c3466d] rounded-full"></li>
-                        </a>
-                    </ul>
-                </div>
-            </div>
-            <div class="div3 relative">
-                <a href=""><img src="assste/image/3.jpg" alt=""
-                        class="w-[350px] h-[450px] object-cover rounded-[20px] hover:animate-pulse "></a>
-                <div class="absolute right-4 top-4">
-                    <ul class=" flex gap-2 flex-col z-10 ">
-                        <a href="">
-                            <li class="w-6 h-6 ">
-                                <img src="assste/icone/icons8-shopping-bag-32.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class=" w-6 h-6 rounded-full ">
-                                <img class="" src="assste/icone/icons8-heart-50.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class="w-6 h-6 ">
-                                <img src="assste/icone/icons8-eye-60.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class="w-6 h-6 "><img
-                                    src="assste/icone/arrow_split_50dp_000000_FILL0_wght600_GRAD0_opsz48.png" alt="">
-                            </li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="p-[1em]">
-                    <a href="#" class="font-bold  hover:text-[#ff6f61]">Porcini Coffee Table</a>
-                    <p class="flex pt-2 gap-2">
-                        <span class="text-[#ff6f61] font-bold  text-l">$120.00</span>
-                    </p>
-                    <ul class="flex gap-2 pt-[1em]">
-                        <a href="" class="hover:border-1 rounded-full">
-                            <li class="w-6 h-6 bg-[#e3d7c6] rounded-full"></li>
-                        </a>
-                        <a href="" class="hover:border-1 rounded-full">
-                            <li class="w-6 h-6 bg-[#b58e68] rounded-full"></li>
-                        </a>
-                    </ul>
-                </div>
-            </div>
-            <div class="div4 relative">
-                <p class=" absolute my-4 ml-3 w-15 h-7 font-bold
-                            p-1.5 text-xs bg-[#ff6f61] rounded-full  text-white ">20% Off</p>
-                <a href=""><img src="assste/image/4.jpg" alt=""
-                        class="w-[350px] h-[450px] object-cover rounded-[20px] hover:animate-pulse "></a>
-                <div class="absolute right-4 top-4">
-                    <ul class=" flex gap-2 flex-col z-10  ">
-                        <a href="">
-                            <li class="w-6 h-6  ">
-                                <img src="assste/icone/icons8-shopping-bag-32.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class=" w-6 h-6 rounded-full ">
-                                <img class="" src="assste/icone/icons8-heart-50.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class="w-6 h-6 ">
-                                <img src="assste/icone/icons8-eye-60.png" alt="">
-                            </li>
-                        </a>
-                        <a href="">
-                            <li class="w-6 h-6 "><img
-                                    src="assste/icone/arrow_split_50dp_000000_FILL0_wght600_GRAD0_opsz48.png" alt="">
-                            </li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="p-[1em]">
-                    <a href="#" class="font-bold  hover:text-[#ff6f61]">Porcini Coffee Table</a>
-                    <p class="flex pt-2 gap-2">
-                        <span class="text-[#ff6f61] font-bold  text-l">$120.00</span>
-                        <span class="text-black opacity-40 font-bold text-l line-through">$140.00</span>
-                    </p>
-                    <ul class="flex gap-2 pt-[1em]">
-                        <a href="" class="hover:border-1 rounded-full">
-                            <li class="w-6 h-6 bg-[#784e39] rounded-full"></li>
-                        </a>
-                        <a href="" class="hover:border-1 rounded-full">
-                            <li class="w-6 h-6 bg-[#add8e6] rounded-full"></li>
-                        </a>
-                    </ul>
-                </div>
+    <section class="py-12 px-4">
+        <div class="container mx-auto">
+            <div class="text-center mb-12">
+                <h1 class="font-bold text-3xl md:text-4xl mb-2">Top Picks You'll Love</h1>
+                <p class="text-gray-600">Explore our most popular pieces that customers can't get enough of</p>
             </div>
 
-        </div>
-        </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Product 1 -->
+                <div class="product-card bg-white rounded-2xl overflow-hidden hover:shadow-lg transition animate-fade-in">
+                    <div class="relative overflow-hidden">
+                        <span class="discount-badge"></span>
+                        <a href="#">
+                            <img src="assste/image/1.jpg" alt="Nook Nightstand" class="w-full h-80 object-cover">
+                        </a>
+                        <div class="product-actions absolute top-4 right-4">
+                            <ul class="flex flex-col gap-2">
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <a href="#" class="font-bold text-lg hover:text-accent">Nook Nightstand</a>
+                        <div class="flex items-center pt-2">
+                            <span class="text-accent font-bold text-lg">$150.00</span>
+                            <span class="text-gray-400 font-bold text-lg line-through ml-2">$170.00</span>
+                        </div>
+                        <div class="flex gap-2 pt-4">
+                            <span class="w-5 h-5 bg-[#b58e68] rounded-full"></span>
+                            <span class="w-5 h-5 bg-black rounded-full"></span>
+                            <span class="w-5 h-5 bg-[#784e39] rounded-full"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card bg-white rounded-2xl overflow-hidden hover:shadow-lg transition animate-fade-in">
+                    <div class="relative overflow-hidden">
+                        <span class="discount-badge bg-[#a474ff]"></span>
+                        <a href="#">
+                            <img src="assste/image/2.jpg" alt="Talco Coffee Table" class="w-full h-80 object-cover">
+                        </a>
+                        <div class="product-actions absolute top-4 right-4">
+                            <ul class="flex flex-col gap-2">
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <a href="#" class="font-bold text-lg hover:text-accent">Talco Coffee Table</a>
+                        <div class="flex items-center pt-2">
+                            <span class="text-accent font-bold text-lg">$350.00</span>
+                        </div>
+                        <div class="flex gap-2 pt-4">
+                            <span class="w-5 h-5 bg-[#4597a4] rounded-full"></span>
+                            <span class="w-5 h-5 bg-[#c3466d] rounded-full"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card bg-white rounded-2xl overflow-hidden hover:shadow-lg transition animate-fade-in">
+                    <div class="relative overflow-hidden">
+                        <a href="#">
+                            <img src="assste/image/3.jpg" alt="Porcini Coffee Table" class="w-full h-80 object-cover">
+                        </a>
+                        <div class="product-actions absolute top-4 right-4">
+                            <ul class="flex flex-col gap-2">
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <a href="#" class="font-bold text-lg hover:text-accent">Porcini Coffee Table</a>
+                        <div class="flex items-center pt-2">
+                            <span class="text-accent font-bold text-lg">$120.00</span>
+                        </div>
+                        <div class="flex gap-2 pt-4">
+                            <span class="w-5 h-5 bg-[#e3d7c6] rounded-full"></span>
+                            <span class="w-5 h-5 bg-[#b58e68] rounded-full"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card bg-white rounded-2xl overflow-hidden hover:shadow-lg transition animate-fade-in">
+                    <div class="relative overflow-hidden">
+                        <span class="discount-badge"></span>
+                        <a href="#">
+                            <img src="assste/image/4.jpg" alt="Porcini Coffee Table" class="w-full h-80 object-cover">
+                        </a>
+                        <div class="product-actions absolute top-4 right-4">
+                            <ul class="flex flex-col gap-2">
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-primary hover:text-white">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <a href="#" class="font-bold text-lg hover:text-accent">Porcini Coffee Table</a>
+                        <div class="flex items-center pt-2">
+                            <span class="text-accent font-bold text-lg">$120.00</span>
+                            <span class="text-gray-400 font-bold text-lg line-through ml-2">$140.00</span>
+                        </div>
+                        <div class="flex gap-2 pt-4">
+                            <span class="w-5 h-5 bg-[#784e39] rounded-full"></span>
+                            <span class="w-5 h-5 bg-[#add8e6] rounded-full"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- new Top Picks -->
-    <section class="-section containers justify-center flex ">
-        <div class=" relative grid grid-cols-6 grid-rows-8 gap-2 w-[100%]  p-10  ">
-            <div class=" col-span-3 row-span-8 ">
-                <a href=""><img src="assste/image/c1.jpg" alt="" class="rounded-[40px] hover:animate-pulse">
-                </a>
-                <button
-                    class=" absolute  bottom-[3em] left-[13em]  transform rounded-full -translate-x-1/2 -translate-y-1/2 cursor-pointer bg-white text-black px-15 py-3  text-3xl font-semibold hover:bg-gray-100 transition">
-                    Chairs
-                </button>
-            </div>
-
-            <div class=" relative col-span-3 row-span-4">
-                <a href=""><img src="assste/image/c2.jpg" alt="" class=" rounded-[20px] hover:animate-pulse"></a>
-                <button
-                    class=" absolute  bottom-[.2em] left-[12em]  transform rounded-full -translate-x-1/2 -translate-y-1/2 cursor-pointer bg-white text-black px-15 py-3  text-3xl font-semibold hover:bg-gray-100 transition">
-                    Tables
-                </button>
-            </div>
-            <div class=" relative col-span-3 row-span-4 ">
-                <a href=""> <img src="assste/image/c3.jpg" alt="" class=" rounded-[20px] hover:animate-pulse"></a>
-                <button
-                    class=" absolute  bottom-[.1em] left-[12em]  transform rounded-full -translate-x-1/2 -translate-y-1/2 cursor-pointer bg-white text-black px-10 py-3  text-3xl font-semibold hover:bg-gray-100 transition">
-                    Decorations
-                </button>
+    <section class="py-12 px-4">    
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="category-card lg:col-span-2 rounded-3xl overflow-hidden relative group animate-fade-in">
+                    <img src="assste/image/c1.jpg" alt="Chairs" class="w-full object-cover">
+                    <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                        <button class="bg-white text-black px-8 py-3 rounded-full text-xl font-semibold hover:bg-gray-100 transition">
+                            Chairs
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 gap-6">
+                    <div class="category-card rounded-2xl overflow-hidden relative group animate-fade-in">
+                        <img src="assste/image/c2.jpg" alt="Tables" class="w-full h-60 object-cover">
+                        <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                            <button class="bg-white text-black px-6 py-2 rounded-full text-lg font-semibold hover:bg-gray-100 transition">
+                                Tables
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card rounded-2xl overflow-hidden relative group animate-fade-in">
+                        <img src="assste/image/c3.jpg" alt="Decorations" class="w-full h-60 object-cover">
+                        <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                            <button class="bg-white text-black px-6 py-2 rounded-full text-lg font-semibold hover:bg-gray-100 transition">
+                                Decorations
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section>
-        <div>
+        <div class="">
             <div>
                 <h1 class="font-bold text-4xl text-center">Curated Just for You</h1>
                 <p class="font-bold text-center">Discover a selection of timeless designs and trends that match your
                     style, all in one place.</p>
             </div>
-            <div class="flex gap-7 p-13 justify-center ">
+            <div class="flex gap-7 p-13 justify-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 p-6 ">
                 <div class=" text-center hover:animate-pulse">
                     <img src="assste/image/r1.jpg" alt="" class="rounded-full ">
                     <p class="font-bold text-2xl p-3 ">Lighting</p>
@@ -482,8 +437,8 @@
 
     <!-- card2 -->
     <section class=" containers flex justify-center ">
-        <div class="  grid grid-cols-6 gap-2 p-10  ">
-            <div class=" col-span-3  gap-5 ">
+        <div class="  grid grid-cols-1 md:grid-cols-2 gap-8 ">
+            <div class="  p-6 ">
                 <a href=""><img src="assste/image/s1.jpg" alt="" class="rounded-[20px] hover:animate-pulse">
                 </a>
                 <div class="flex flex-col justify-center items-center ">
@@ -497,7 +452,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-span-3  gap-5">
+            <div class="  p-6 ">
                 <a href="">
                     <img src="assste/image/s2.jpg" alt="" class="rounded-[20px] hover:animate-pulse">
                 </a>
@@ -519,7 +474,7 @@
     <!-- card2 -->
 
     <!-- banner2 -->
-    <section class="banner2">
+    <section class="banner2 ">
         <div>
             <h1 class="font-bold text-4xl text-center p-1 ">Inspired by You</h1>
             <p class="font-bold text-center pb-[3em]">Find everything you need to recreate the look.</p>
@@ -536,14 +491,14 @@
         <div>
             <h1></h1>
         </div>
-        <div class="flex flex-col md:flex-row w-[1440px] overflow-hidden  ">
-            <div class=" w-[40%] rounded-[20%] ">
+        <div class="flex flex-col md:flex-row rounded-3xl overflow-hidden shadow-xl">
+            <div class="  rounded-[20%] ">
                 <img src="assste/image/slider-furniture-3.jpg" alt=""
                     class="w-[100%] h-[100%] rounded-tl-[40px] rounded-bl-[40px]">
 
             </div>
             <div
-                class=" rounded-tr-[40px] rounded-br-[40px] w-[60%] bg-[#ba9272] flex flex-col justify-center p-10 text-white">
+                class=" rounded-tr-[40px] rounded-br-[40px]  bg-[#ba9272] flex flex-col justify-center p-10 text-white">
                 <div class="text-4xl text-white mb-4">❝</div>
                 <div class="flex mb-2">
                     <span class="text-yellow-400 text-lg">★★★★★</span>
@@ -576,223 +531,96 @@
     <!-- banner3 -->
 
     <!-- footer -->
-    <footer class=" w-full  pt-[3em]  ">
-        <div>
-            <div class=" flex flex-row justify-between border-1 border-[#e5e5e5] p-9  ">
-                <div class=" pl-[1em] ">
-                    <a href="#"><img src="assste/icone/logo.svg" alt="logo" class="logo "></a>
+    <footer class="bg-white pt-12 pb-6 px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center border-b border-light pb-6 mb-8">
+                <a href="#">
+                    <img src="assste/icone/logo.svg" alt="Vineta Logo" class="h-8">
+                </a>
+                <div class="flex gap-4 mt-4 md:mt-0">
+                    <a href="#" class="w-10 h-10 border border-light rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 border border-light rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 border border-light rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 border border-light rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
                 </div>
-                <div class="top-bar-left ">
-                    <ul class="icon flex gap-2 ml-11 pt-1 ">
-                        <li
-                            class="facebook rounded-full border-1 p-2 hover:bg-[#4267B2] transition delay-150 duration-300 ease-in-out rounded-full  ">
-                            <a href="">
-                                <img src="assste/icone/f1.png" alt="" class=" w-6 h-6 ">
-                            </a>
-                        </li>
-                        <li
-                            class="facebook rounded-full border-1 p-2 hover:bg-[#C13584] transition delay-150 duration-300 ease-in-out rounded-full  ">
-                            <a href="">
-                                <img src="assste/icone/ins1.png" alt="" class=" w-6 h-6 ">
-                            </a>
-                        </li>
-                        <li
-                            class="facebook  rounded-full border-1 p-2 hover:bg-[#0077B5] transition delay-150 duration-300 ease-in-out rounded-full ">
-                            <a href="">
-                                <img src="assste/icone/in1.png" alt="" class=" w-6 h-6 ">
-                            </a>
-                        </li>
-                        <li
-                            class="facebook  rounded-full border-1 p-2 hover:bg-[#e5e5e5] transition delay-150 duration-300 ease-in-out rounded-full ">
-                            <a href="">
-                                <img src="assste/icone/x1.png" alt="" class=" w-6 h-6 ">
-                            </a>
-                        </li>
-
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Business Contact</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-primary mt-1 mr-3"></i>
+                            <p class="text-gray-600">123 Yarran st, Punchbowl, NSW 2196, Australia</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-phone-alt text-primary mt-1 mr-3"></i>
+                            <p class="text-gray-600">+1 234 567 8900</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope text-primary mt-1 mr-3"></i>
+                            <p class="text-gray-600">info@vineta.com</p>
+                        </div>
+                        <a href="#" class="text-primary font-semibold flex items-center hover:underline">
+                            Get direction <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Subscribe Newsletter</h3>
+                    <p class="text-gray-600 mb-4">We invite you to register to read the latest news, offers and events about our company.</p>
+                    <form class="relative">
+                        <input type="email" placeholder="Enter your email" class="w-full py-3 px-4 border border-light rounded-full focus:outline-none focus:ring-2 focus:ring-primary">
+                        <button type="submit" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-primary text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-primary/90 transition">
+                            <span class=" bg-black px-5 py-3 rounded-full">ok</span>
+                        </button>
+                    </form>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold text-lg mb-4">About Us</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-primary">About Us</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Our Store</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Careers</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Privacy Policies</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Terms &amp; Conditions</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Returns &amp; Refunds</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">FAQ's</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Shipping</a></li>
                     </ul>
                 </div>
             </div>
-
-
-            <div class="flex flex-row w-[100%]">
-                <div class=" w-[33%] border-1 border-[#e5e5e5] pb-[3em]">
-                    <div>
-                        <h1 class=" font-bold text-2xl text-left pt-[2em] pl-[2em] ">Business Contact</h1>
-                    </div>
-                    <div>
-                        <ul class="flex flex-col p-4">
-                            <li class="flex gap-3 pl-[2em] pt-[1em] ">
-                                <span><img src="assste/icone/icons8-location-60.png" alt=""
-                                        class=" items-center w-7 h-7 hover:bg-[#ff6f61] cursor-pointer transition delay-150 duration-300 ease-in-out rounded-full "></span>
-                                <a href="#" class="text-left font-semibold top ">
-                                    <p class=" hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">123
-                                        Yarran st, Punchbowl, NSW 2196, <br>Australia</p>
-                                </a>
-                            </li>
-                            <li class="flex gap-3 pl-[2em] pt-[1em] ">
-                                <span><img src="assste/icone/icons8-location-60.png" alt=""
-                                        class=" items-center w-7 h-7 hover:bg-[#ff6f61] cursor-pointer transition delay-150 duration-300 ease-in-out rounded-full "></span>
-                                <a href="#" class="text-center font-semibold  ">
-                                    <p class="hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">123
-                                        Yarran
-                                        st, Punchbowl, NSW 2196, Australia</p>
-                                </a>
-                            </li>
-                            <li class="flex gap-3 pl-[2em] pt-[1em] ">
-                                <span><img src="assste/icone/icons8-location-60.png" alt=""
-                                        class=" items-center w-7 h-7 hover:bg-[#ff6f61] cursor-pointer transition delay-150 duration-300 ease-in-out rounded-full "></span>
-                                <a href="#" class="text-center font-semibold  ">
-                                    <p class="hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">123
-                                        Yarran
-                                        st, Punchbowl, NSW 2196, Australia</p>
-                                </a>
-                            </li>
-                        </ul>
-                        <div
-                            class=" pl-[3em] font-semibold  hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                            <a href="#" class="flex gap-3  underline text-center ">Get direction
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" w-[35%] border-1 border-[#e5e5e5] pb-[3em]">
-                    <div>
-                        <h1 class=" font-bold text-2xl text-left pt-[2em] pl-[2em] ">Subscribe Newsletter</h1>
-                    </div>
-                    <div class=" pl-[3em] pt-[1.5em] text-left ">
-                        <p class=" text-[#58595B] w-[85%] font-medium">We invite you to register to read the latest
-                            news, offers and events about our company. We promise not spam your inbox.</p>
-
-                    </div>
-                    <div>
-                        <form action="" class="relative  flex flex-row pl-[3em] pt-[1.5em]">
-                            <input type="email" name="email" id="email" placeholder="Enter your email"
-                                class=" p-[1.3em] text-[#58595B] text-xl w-[80%] h-8 border-1 bg-white border-[#e5e5e5] rounded-full  hover:border-black transition delay-150 duration-700 ease-in-out ">
-                            <input type="submit" value="Su"
-                                class=" left-94 absolute w-13.5 h-13.5 bg-black text-white rounded-full cursor-pointer  hover:bg-[#ff6f61] transition delay-150 duration-700 ease-in-out ">
-                    </div>
-                </div>
-                <div class="  w-[33%] border-1 border-[#e5e5e5] pb-[3em]">
-                    <div class="flex justify-between ">
-                        <h1 class=" font-bold text-2xl text-left pt-[2em] pl-[2em] ">About Us</h1>
-                        <h1 class=" font-bold text-2xl text-left pt-[2em]  pr-[3em]  ">Resource</h1>
-                    </div>
-                    <div class="flex justify-between ">
-                        <div>
-                            <ul class="flex flex-col p-4 text-[#58595B]">
-                                <li class="flex  pl-[2em] pt-[.5em] ">
-
-                                    <a href="#" class="text-left font-semibold top ">
-                                        <p class=" hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                                            About Us</p>
-                                    </a>
-                                </li>
-                                <li class="flex gap-3 pl-[2em] pt-[1em] ">
-
-                                    <a href="#" class="text-center font-semibold  ">
-                                        <p class="hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                                            Contact Us</p>
-                                    </a>
-                                </li>
-                                <li class="flex gap-3 pl-[2em] pt-[1em] ">
-
-                                    <a href="#" class="text-center font-semibold  ">
-                                        <p class="hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                                            Our Store</p>
-                                    </a>
-                                </li>
-                                <li class="flex gap-3 pl-[2em] pt-[1em] ">
-
-                                    <a href="#" class="text-center font-semibold  ">
-                                        <p class="hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                                            Our Store</p>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                        <div class="pr-[1em] ">
-
-
-
-                            <ul class="flex flex-col p-4 text-[#58595B]">
-                                <li class="flex  pl-[2em] pt-[.5em] ">
-
-                                    <a href="#" class="text-left font-semibold top ">
-                                        <p class=" hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                                            Privacy Policies</p>
-                                    </a>
-                                </li>
-                                <li class="flex  pl-[2em] pt-[1em] ">
-
-                                    <a href="#" class="text-center font-semibold  ">
-                                        <p class="hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                                            Terms & Conditions</p>
-                                    </a>
-                                </li>
-                                <li class="flex  pl-[2em] pt-[1em] ">
-
-                                    <a href="#" class="text-center font-semibold  ">
-                                        <p class="hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                                            Returns & Refunds</p>
-                                    </a>
-                                </li>
-                                <li class="flex  pl-[2em] pt-[1em] ">
-
-                                    <a href="#" class="text-center font-semibold  ">
-                                        <p class="hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                                            FAQ’s</p>
-                                    </a>
-                                </li>
-                                <li class="flex  pl-[2em] pt-[1em] ">
-
-                                    <a href="#" class="text-center font-semibold  ">
-                                        <p class="hover:text-[#ff6f61] transition delay-150 duration-300 ease-in-out">
-                                            Shipping</p>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-center pt-6 border-t border-light">
+                <p class="text-gray-600 mb-4 md:mb-0">Copyright © 2025 by Youssef Masry <span class="font-medium">Vineta.</span> All Rights Reserved.</p>
+                <div class="flex flex-wrap gap-2">
+                    <img src="assste/icone/ApplePay.png" alt="Apple Pay" class="h-8">
+                    <img src="assste/icone/DinersClub.png" alt="Diners Club" class="h-8">
+                    <img src="assste/icone/Discover.png" alt="Discover" class="h-8">
+                    <img src="assste/icone/MasterCard.png" alt="MasterCard" class="h-8">
+                    <img src="assste/icone/GooglePay.png" alt="Google Pay" class="h-8">
+                    <img src="assste/icone/Visa.png" alt="Visa" class="h-8">
                 </div>
             </div>
         </div>
-        <div class="flex justify-between p-[2em] ">
-            <p class="text-dark">Copyright © 2025 by <span class="fw-medium">Vineta.</span> All Rights Reserved.</p>
-            <ul class="flex gap-3 ">
-                <li>
-                    <a href=""><img src="assste/icone/ApplePay.png" alt="" class=" h-8 "></a>
-                </li>
-                <li>
-                    <a href=""><img src="assste/icone/DinersClub.png" alt="" class=" h-8 "></a>
-                </li>
-                <li>
-                    <a href=""><img src="assste/icone/Discover.png" alt="" class=" h-8 "></a>
-                </li>
-                <li>
-                    <a href=""><img src="assste/icone/MasterCard.png" alt="" class=" h-8 "></a>
-                </li>
-                <li>
-                    <a href=""><img src="assste/icone/GooglePay.png" alt="" class=" h-8 "></a>
-                </li>
-                <li>
-                    <a href=""><img src="assste/icone/Mastercard-2.png" alt="" class=" h-8 "></a>
-                </li>
-                <li>
-                    <a href=""><img src="assste/icone/Shop.png" alt="" class=" h-8 "></a>
-                </li>
-                <li>
-                    <a href=""><img src="assste/icone/UnionPay.png" alt="" class=" h-8 "></a>
-                </li>
-                <li>
-                    <a href=""><img src="assste/icone/Visa.png" alt="" class=" h-8 "></a>
-                </li>
-            </ul>
-        </div>
-
     </footer>
     <!-- footer -->
 </body>
